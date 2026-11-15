@@ -3,8 +3,8 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from the CI/CD pipeline',
-    version: 'v1',
+    message: ' Prem Hello from Abbas CI/CD pipeline',
+    version: 'v2',
     commit: process.env.COMMIT_SHA || 'local'
   });
 });
